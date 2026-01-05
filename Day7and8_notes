@@ -1,0 +1,35 @@
+#day 7 
+#exercise 1 
+#floor division operator 
+print(10/3)#the result is 3.333335
+#lekin jab hum lagayenge // aur  karenge
+print(10//3)#iska result aayega 3 ye point ke baad wale  ko hatata hain 
+#module operator
+print(10%3)#ye remainder deta hain
+#exponential operator 
+print(5**3)#ye 5³hojat ahain agar hum direct lekhe 
+#print(5³) #to error aayega aur aise bhi lekh sakte hain 
+print(5*5*5)
+#crating a calculator 
+#jo add mutiply substract aur divide bhi kar sake
+
+
+
+#day 8 solution 
+a=56776775
+b=57765686
+add=a+b
+print(add)
+substract=a-b
+print(substract)
+mutiply=a*b
+print(mutiply)
+divide=a/b
+print(divide)
+#floor division
+floor=a//b
+print(floor)
+exponential=a**5,  b**4
+print(exponential )
+#module
+module=(a%b)
