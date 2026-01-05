@@ -1,0 +1,54 @@
+#day 6 
+#variable and data types
+#variable is like a container in which store things.
+harry=9
+#aur koi kah de 
+b=harry
+#aur lekhe 
+print (harry)# result aayega 9
+#ab python ko kaise pata chalega ki main kiss harry ki baat kar raha hu aur main literally harry ko print karna chata hu to isse liye hum b ='' ke andar harry lekhenge to ye atring hogayega aur ab lekhe 
+print('harry') #result aayega harry print hokar 
+#ab data types  jaise 
+a=1#ye integer store hogaya 
+b=True #ye boolean store hua
+c='harry' #ye string store hua
+d='None'  #aur ye none type variable hua
+#data types hame chhiye kyonki alag alag tarah ke value ko meamory mai store kar sake
+
+#agar mai lekhu 
+#print(a+b) # to error aayega kyonki dono alag alag tarah ke data types hain
+#do number ko jodne ke liye hame ek tarah ke datatypes chahiye 
+#ab mai kar du 
+a1=7
+#aur ab karu
+print(a+a1)#  to result aayega 8
+#ab variable ban gaya ab hume type janna hain to ab hum 
+print('type of a is:-', type(a)) #to  result aayega int aur examples
+p='5'
+o=6
+s=True
+x=None
+y=complex(8,2)
+z=(8.9)
+r=7+8j
+print(type(p))# result string aayega
+print(type(o)) #result integer aayega
+print(type(s))#result boolean aayega
+print(type(x))#result Nontype aayega
+print(type(y)) #result complex aayega
+print(type(z))#result float hoga
+#python ke andar kuch built in data type hote hain jaise -Number
+print(type(r))  #result complex aayega
+#list and tuple
+#list:- list ia an ordered collection of data types
+list=["rice", "mango","papaya"] # ye list hain 
+#print(list) tuple is also a collection of items
+#dictionary 
+dict={"name": "Riyans","age":"18","canvote":True}
+print(dict)
+#dictionary is a map data
+# python mai sab kuch ek'' object hota hain
+#ek aur point 
+a=1
+b=False #hoga 
+print(a+b)# to result  1 aayega kyonki True =1 aur False =0 hota hain
