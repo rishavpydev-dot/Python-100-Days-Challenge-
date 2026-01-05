@@ -1,0 +1,17 @@
+#day10 , taking input to user
+#input:-the inpur function gives a return value as string/character.
+
+a=input()
+print(a)
+b=input()
+print("my name is", b)
+c=input('enter your name:')
+print(c)
+d=input('enter first number:')
+e=input('enter second number:')
+result=d+e
+print(result)
+#ye result aayega  string mai ab hame agar usse integer mai change karna ho to 
+a=int(input('enter first number'))
+b=int(input('enter the second number '))
+print(a+b)
