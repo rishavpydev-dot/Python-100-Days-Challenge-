@@ -1,0 +1,13 @@
+a = "1"
+b = "2"
+print(a + b)        # Result: 12 (Kyunki ye strings hain)
+print(int(a) + int(b))  # Result: 3 (Ab ye numbers ban gaye)
+
+c = 1.9  # float
+d = 8    # int
+print(c + d) # Result: 9.9
+
+x = 5
+y = "5"
+print(type(x)) # <class 'int'>
+print(type(y)) # <class 'str'>
